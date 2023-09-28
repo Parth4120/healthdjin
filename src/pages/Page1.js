@@ -10,7 +10,7 @@ const Page1 = () => {
 
       <div className='slogens'>
         <p className='text'>
-            WELCOME
+            WELCOME TO
         </p>
         <p className='ran'>
             RAN
