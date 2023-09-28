@@ -48,11 +48,11 @@
     background: linear-gradient(180deg, #FCFFF8 0%, rgba(255, 255, 255, 0) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    box-shadow: 28px 4px 8px 0px #00000040 inset;
+    /* box-shadow: 28px 4px 8px 0px #00000040 inset; */
 
     
 }
 
 .swipeup{
-    color:white
+    color:#ffffff
 }

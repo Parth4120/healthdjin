@@ -1,9 +1,12 @@
 import React from 'react';
 import './Cards.css'
+import Navbar from './Navbar';
 
 const Cards = () => {
   return (
+    
     <div className='cards-main-container'>
+    <div><Navbar></Navbar></div>
       <div className='cards-main-heading'>
       Projects
       </div>
