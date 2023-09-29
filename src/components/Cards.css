@@ -5,8 +5,7 @@
 }
 
 .cards-main-heading{
-    font-size: 20px;
-    color: black;
+    color: #ffffff;
     font-family: Inika;
     font-size: 48px;
     font-style: normal;
@@ -21,10 +20,11 @@
 .cards-main-box{
     max-width: 80%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items:center ;
     margin: auto;
-    
+    margin-top: 4rem;
 }
 
 .cards-main-box-1{
@@ -33,6 +33,7 @@
     flex-shrink: 0;
     border-radius: 19px;
     background: #D9D9D9;
+    margin:1rem
 }
 
 .cards-main-box-2{
@@ -41,6 +42,7 @@
     flex-shrink: 0;
     border-radius: 19px;
     background: #D9D9D9;
+    margin: 1rem;
 }
 .cards-main-box-3{
     width: 305px;
@@ -48,4 +50,28 @@
     flex-shrink: 0;
     border-radius: 19px;
     background: #D9D9D9;
+    margin : 1rem;
+
 }
+
+@media screen and (max-width:550px){
+    .cards-main-container{
+        height: 100%;
+        padding-bottom: 4rem;
+    }
+}
+
+@media (min-width:481px) and (max-width:770px){
+    .cards-main-container{
+        height: 100%;
+        padding-bottom: 4rem;
+    }
+}
+@media (min-width:771px) and (max-width:1200px){
+    .cards-main-container{
+        height: 100%;
+        padding-bottom: 4rem;
+
+    }
+}
+
