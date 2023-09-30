@@ -7,7 +7,6 @@ import Section3 from '../components/Section3'
 const Home = () => {
   return (
     <div className='div'>
-    
     <Page1/>
     <Cards/>
     <Section3/>
