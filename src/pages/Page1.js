@@ -21,8 +21,8 @@ const Page1 = () => {
       </div>
 
       <div className='text'>
-        <RiArrowUpDoubleFill size={80} color='#fff'/>
-        <p>SWIPE UP</p>
+        <RiArrowUpDoubleFill size={80} color='#fff' className='swipeupicon'/>
+        <p className='swipeupicon'>SWIPE UP</p>
       </div>
     </div>)
 }

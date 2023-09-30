@@ -57,6 +57,27 @@
     color:#ffffff
 }
 
+.swipeupicon{
+    animation-duration: 2s ;
+    animation-name: swipeAnimation;
+    animation-timing-function: linear;
+    transition:0.3s linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes swipeAnimation{
+    0%{
+        transform:translateY(30px);
+    }
+    50%{
+
+    }
+    100%{
+        transform:translateY(-10px);
+    }
+    
+}
+
 
 @media screen and (max-width:480px){
 
