@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './Slider.css';
+import './Section3.css';
 import Navbar from './Navbar';
 
-const Slider = () => {
+const Section3 = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
@@ -25,8 +25,9 @@ const Slider = () => {
   };
 
   return (
-    <div className='slider'>
+    <div className='section3'>
     <div><Navbar></Navbar></div>
+    <div className='Section3-content'>
     <div>
 
       <div className="slider-container">
@@ -49,10 +50,18 @@ const Slider = () => {
         ))}
       </div>
     </div>
+
+    {/* container  */}
+
+    <div className='container'>
+    information about us
+    </div>
+    </div>
+
     </div>
   );
 };
 
-export default Slider;
+export default Section3;
 
 
