@@ -96,16 +96,6 @@
 }
 
 
-/* .image-container {
-    position: relative;
-    width: 300px;
-    height: 200px; 
-    background: url('') no-repeat center center;
-    background-size: cover;
-    overflow: hidden;
-} */
-
-
 @media screen and (max-width:550px){
     .cards-main-container{
         height: 100%;
