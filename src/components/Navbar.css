@@ -63,7 +63,7 @@
 }
 
 Navlink{
-    all:unset;
+    all: unset;
 }
 
 @media screen and (max-width:480px){

@@ -65,6 +65,142 @@
     animation-iteration-count: infinite;
 
 }
+
+.circle-container {
+    /* position: fixed; */
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+  }
+  
+  .dynamic-circle {
+    /* position: fixed; */
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.3; 
+     
+  }
+  
+  
+  .dynamic-circle:nth-child(1) {
+    top: 150px;
+    left: 500px;
+    box-shadow: 0px 0px 45px 55px rgba(54, 194, 32, 1);
+    background-color: rgba(54, 194, 32, 1);
+    width: 35px;
+    height: 35px;
+    animation: animate1 4s linear infinite alternate;
+
+  }
+  @keyframes animate1{
+    0%{
+        
+        transform: translate(0, 0);
+    }
+    100%{
+   
+        transform: translate(300px, 300px);
+    }
+  }
+  
+  .dynamic-circle:nth-child(2) {
+    top: 250px;
+    left: 300px;
+    box-shadow: 0px 0px 45px 55px rgba(89, 13, 13, 1);
+    width: 35px;
+    height: 35px;
+    background-color: rgba(89, 13, 13, 1);
+    animation: animate2 4s linear infinite alternate;
+  }
+  @keyframes animate2{
+    0%{
+        
+        transform: translate(0, 0);
+    }
+    100%{
+   
+        transform: translate(200px, -100px);
+    }
+  }
+  .dynamic-circle:nth-child(3) {
+    top: 450px;
+    left: 450px;
+    box-shadow: 0px 0px 45px 55px rgba(89, 59, 13, 1);
+    width: 35px;
+    height: 35px;
+    background-color: rgba(89, 59, 13, 1);
+    animation: animate3 4s linear infinite alternate;
+  }
+  @keyframes animate3{
+    0%{
+        
+        transform: translate(0, 0);
+    }
+    100%{
+   
+        transform: translate(-90px, 100px);
+    }
+  }
+  .dynamic-circle:nth-child(4) {
+    top: 150px;
+    right: 500px;
+    box-shadow: 0px 0px 45px 55px rgba(89, 13, 41, 1);
+    width: 35px;
+    height: 35px;
+    background-color: rgba(89, 13, 41, 1);
+    animation: animate4 4s linear infinite alternate;
+  }
+  @keyframes animate4{
+    0%{
+        
+        transform: translate(0, 0);
+    }
+    100%{
+   
+        transform: translate(500px, 100px);
+    }
+  }
+  .dynamic-circle:nth-child(5) {
+    top: 250px;
+    right: 350px;
+    box-shadow: 0px 0px 45px 55px rgba(89, 13, 13, 1);
+    width: 35px;
+    height: 35px;
+    background-color: rgba(89, 13, 13, 1);
+    animation: animate5 4s linear infinite alternate;
+  }
+  @keyframes animate5{
+    0%{
+        
+        transform: translate(0, 0);
+    }
+    100%{
+   
+        transform: translate(-100px, 100px);
+    }
+  }
+  .dynamic-circle:nth-child(6) {
+    top: 450px;
+    right: 350px;
+    box-shadow: 0px 0px 45px 55px rgba(89, 59, 13, 1);
+    width: 35px;
+    height: 35px;
+    background-color: rgba(89, 59, 13, 1);
+    animation: animate6 4s linear infinite alternate-reverse;
+  }
+
+  @keyframes animate6{
+    0%{
+        
+        transform: translate(0, 0);
+    }
+    100%{
+   
+        transform: translate(200px, -100px);
+    }
+  }
+  
+  
 @keyframes swipeAnimation{
     0%{
         transform:translateY(30px);

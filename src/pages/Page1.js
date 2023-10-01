@@ -9,6 +9,17 @@ const Page1 = () => {
       </div>
 
       <div className='slogens'>
+      <div className="circle-container">
+        <div className='dynamic-circle'></div>
+        <div className='dynamic-circle'></div>
+        <div className='dynamic-circle'></div>
+        <div className='dynamic-circle'></div>
+        <div className='dynamic-circle'></div>
+        <div className='dynamic-circle'></div>
+        <div className='dynamic-circle'></div>
+      </div>
+
+      
         <p className='text'>
             WELCOME TO
         </p>
